@@ -32,7 +32,8 @@ fn main() {
         String::from("typescript"),        
     ];
 
-    let result = next_language(&languages, "go");
+    //let result = next_language(&languages, "go");
+    let result = longest_lang("Python", "COBOL");
 
     println!("{}", result);
 }
